@@ -4,7 +4,7 @@ function initMovieAppPage()
 	$("#showMovieInfo").click(function()
 	{
 		var movieName = $("#movieName").val();
-		$.getJSON("http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey=2ccpkr3dpkjr4jpyh2ajnwxm&q="+movieName+"&page_limit=5&callback=?",
+		$.getJSON("http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey=YOUR API KEY&q="+movieName+"&page_limit=5&callback=?",
 		function(data)
 		{
 			console.log(data);
