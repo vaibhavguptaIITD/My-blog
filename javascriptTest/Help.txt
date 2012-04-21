@@ -1,0 +1,9 @@
+How to run the test?
+
+1. Open SpecRunner.html. You will see redness all over the screen.
+2. There are 4 test cases. 3 for arrays and 1 for flow, located in "spec". Looking at the files one can see 
+what is expected of a successful function.
+3. Files in "src" contain functions which need to be implemented. The functions have declarations but no 
+implementation.
+4. Once the functions have been implemented, refreshing SpecRunner.html will show passed/failed functions in 
+green/red respectively.
