@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Vaibhav Gupta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<!--#include file="includes/_style.html"-->
+  </head>
+
+  <body>
+
+    <!--#include file="includes/_nav.html"-->
+	<div id="contentArea">
+    <div class="container">
+    	<div class="span8">
+    		<div class="row">
+			<div class="span7 offset1 marginBottom10">
+				<h1>Vaibhav Gupta</h1>
+			</div>
+			</div>
+    	</div>
+		<div class="marginBottom10 span8">
+			<div class="row marginBottom5">
+				<div class="span1">
+					<strong class="fright">Mobile</strong>
+				</div>
+				<div class="span7">
+					<em>+919711354567</em>
+				</div>
+			</div>
+			<div class="row marginBottom5">
+				<div class="span1">
+					<strong class="fright">Email</strong>
+				</div>
+				<div class="span7">
+					<em>vaibhavgupta_iitd@yahoo.co.in</em>
+				</div>
+			</div>
+			<div class="row marginBottom5">
+				<div class="span1">
+					<strong class="fright">Web</strong>
+				</div>
+				<div class="span7">
+					<a href="www.vaibhavh.com">www.vaibhavh.com</a>
+				</div>
+			</div>
+			<div class="row marginBottom5">
+				<div class="span1">
+					<strong class="fright">Social</strong>
+				</div>
+				<div class="span7">
+					<a href="http://www.linkedin.com/in/vaibhavguptaiitd" title="Linkedin" target="_blank"><i class="bigicon-linkedin"></i></a>
+					<a href="https://github.com/vaibhavguptaIITD" title="GitHub" target="_blank"><i class="bigicon-github"></i></a>
+					<a href="https://www.facebook.com/vaibhavgupta.iitd" title="Facebook" target="_blank"><i class="bigicon-fb"></i></a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="span8">
+				<div class="workEx">
+					<div class="row">
+					<div class="span1">
+						<em class="fright">2011-Present</em>
+					</div>
+					<div class="span7">
+						<h3>hCentive, India</h3>
+						<h4>Senior Software Engineer</h4>
+						<p>I have worked on the UI layer of the applications. I write code in JSP, Spring MVC, Javascript and occasionally in MySQL. My main 
+						focus is on the performance of the front end. I provide support and mentorship to other team members.</p>
+						<span class="badge badge-info chartControl" id="hcentiveSSE-Control"><i class="icon-minus-sign icon-white"></i></span>
+						<div id="hcentiveSSE-Chart" class="chartContainer"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span1">
+						<em class="fright">2010-2011</em>
+					</div>
+					<div class="span7">
+						<h3>hCentive, India</h3>
+						<h4>Software Engineer</h4>
+						<p>I have written the UI layer of the application which includes the security layer, presentation layer and the controllers.  
+						 </p>
+						<span class="badge badge-info chartControl" id="hcentiveSE-Control"><i class="icon-minus-sign icon-white"></i></span>
+						<div id="hcentiveSE-Chart" class="chartContainer"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span1">
+						<em class="fright">2008-2010</em>
+					</div>
+					<div class="span7">
+						<h3>Manhattan Associates, India</h3>
+						<h4>Associate Software Engineer</h4>
+						<p>Part of Architecture team. Responsible for making resuable UI components using technologies like JSF, HTML, CSS, JavaScript, JSP and Servlets.</p>
+						<span class="badge badge-info chartControl" id="manhASE-Control"><i class="icon-minus-sign icon-white"></i></span>
+						<div id="manhASE-Chart" class="chartContainer"></div>
+					</div>
+				</div>
+				</div>
+				<div class="academics">
+					<div class="row">
+					<div class="span1">
+						<em class="fright">2004-2008</em>
+					</div>
+					<div class="span7">
+						<h3>Indian Institute of Technology, Delhi</h3>
+						<h4>Bachelor of Technology, Civil Engineering</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="span3">
+				<h5>Skills</h5>
+				<h6>Languages</h6>
+				<div id="languagesChart"></div>
+				<h6>Frameworks</h6>
+				<div id="frameworksChart"></div>
+			</div>
+    </div>
+    </div>
+    </div>
+    <!--#include file="includes/_script.html"-->
+    <script>
+    	$(function()
+    			{
+					About.initAbout();
+
+    			});
+    
+    </script>
+  </body>
+</html>

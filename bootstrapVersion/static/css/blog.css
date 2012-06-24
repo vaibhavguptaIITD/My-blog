@@ -1,0 +1,63 @@
+.post{
+	margin-top:15px;
+}
+.marginBottom10{
+	margin-bottom:10px;
+}
+.marginBottom5{
+	margin-bottom:5px;
+}
+.postBody{
+	padding-top:9px;
+}
+
+[class^="bigicon-"],
+[class*=" bigicon-"] {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  *margin-right: .3em;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url("../img/glyphicons.png");
+  background-position: 14px 14px;
+  background-repeat: no-repeat;
+}
+
+.bigicon-phone{
+	background-position:-152px -769px;
+
+}
+
+.bigicon-email{
+	background-position:-3px -53px;
+}
+
+.bigicon-linkedin{
+	background-position:-339px -1777px;
+}
+
+.bigicon-fb{
+	background-position:-3px -1873px;
+}
+
+.bigicon-skype{
+	background-position:-387px -1873px;
+}
+
+.bigicon-github{
+	background-position:-51px -1825px;
+}
+
+
+.clear{
+	clear:both;
+}
+
+.fleft{
+	float:left;
+}
+
+.fright{
+	float:right;
+}

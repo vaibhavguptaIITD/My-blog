@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Vaibhav Gupta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<!--#include file="includes/_style.html"-->
+  </head>
+
+  <body>
+
+    <!--#include file="includes/_nav.html"-->
+	<div id="contentArea">
+    <div class="container">
+		<div class="row">
+			<div class="span9">
+				<div class="row post">
+					<div class="span7">
+						<h1 class="marginBottom5">My blog</h1>
+						<span class="label label-info">Javascript</span>
+						<span class="label label-info">Javascript</span>
+						<p class="postBody">This is my tag line. Blah blah blah blah blah</p>
+						<a class="btn" href="#">Read more</a>
+					</div>
+					<div class="span2">
+						29/11/1986
+					</div>
+				</div>
+				<div class="row post">
+					<div class="span7">
+						<h1 class="marginBottom5">My blog1</h1>
+						<span class="label label-info">CSS</span>
+						<span class="label label-info">Random</span>
+						<p class="postBody">This is my tag line. Blah blah blah blah blah</p>
+						<a class="btn" href="#">Read more</a>
+					</div>
+					<div class="span2">
+						29/11/1986
+					</div>
+				</div>
+				<div class="row post">
+					<div class="span7">
+						<h1 class="marginBottom5">My blog2</h1>
+						<span class="label label-info">Javascript</span>
+						<span class="label label-info">Javascript</span>
+						<p class="postBody">This is my tag line. Blah blah blah blah blah</p>
+						<a class="btn" href="#">Read more</a>
+					</div>
+					<div class="span2">
+						29/11/1986
+					</div>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="row well">
+					<h2>About me</h2>
+					<p>Some blah blah blah</p>
+				</div>
+			</div>
+		</div>
+    </div>
+    </div>
+    <!--#include file="includes/_script.html"-->
+  </body>
+</html>
